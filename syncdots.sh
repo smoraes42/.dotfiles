@@ -2,8 +2,9 @@
 
 cd ~/Templates/git/.dotfiles
 
-rsync -av --progress ~/.vimrc ~/git/.dotfiles/.vimrc
-rsync -av --progress ~/.bashrc ~/git/.dotfiles/.bashrc
+rsync -av --progress ~/.vimrc ~/Templates/git/.dotfiles/.vimrc
+rsync -av --progress ~/.bashrc ~/Templates/git/.dotfiles/.bashrc
+rsync -av --progress --exclude 'packer_compiled.lua' ~/.config/nvim/ ~/Templates/git/.dotfiles/nvim/ 
 
 git add .
 echo "[+] Pushing to .dotfiles"

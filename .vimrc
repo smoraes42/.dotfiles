@@ -43,18 +43,20 @@ set scrolloff=10
 " Do not wrap lines. Allow long lines to extend as far as the line goes.
 set nowrap
 
-colorscheme industry
-let t:is_transparent = 0
-function! Toggle_transparent()
-    if t:is_transparent == 0
-        hi Normal guibg=NONE ctermbg=NONE
-        let t:is_transparent = 1
-    else
-        set background=dark
-        let t:is_transparent = 0
-    endif
-endfunction
-nnoremap <C-t> : call Toggle_transparent()<CR>
+colorscheme hybrid
+set background=dark
+
+"" let t:is_transparent = 0
+"function! Toggle_transparent()
+"    if t:is_transparent == 0
+"        hi Normal guibg=NONE ctermbg=NONE
+"        let t:is_transparent = 1
+"    else
+"        set background=dark
+"        let t:is_transparent = 0
+"    endif
+"endfunction
+"nnoremap <C-t> : call Toggle_transparent()<CR>
 
 " While searching though a file incrementally highlight matching characters as you type.
 set incsearch

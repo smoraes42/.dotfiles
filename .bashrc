@@ -100,9 +100,10 @@ alias fgrep='fgrep --color=auto'
 alias mini='~/mini-moulinette/mini-moul.sh'
 alias rush00='cd /Users/smoraes-/Downloads/Rush00/rush00/test'
 alias paco='python3 ~/francinette/main.py'
-alias syncgit='bash ~/git/42Piscine/syncgit.sh'
-alias syncdots='bash ~/git/.dotfiles/syncdots.sh'
-alias tardir='bash ~/git/.dotfiles/tardir.sh'
+alias syncgit='bash ~/Templates/git/42Piscine/syncgit.sh'
+alias syncdots='bash ~/Templates/git/.dotfiles/syncdots.sh'
+alias tardir='bash ~/Templates/git/.dotfiles/tardir.sh'
+alias nvim='~/Downloads/nvim-macos/bin/nvim -p'
 
 #alias delcon='sudo ip addr del $1 dev $2' # 1 ..../x 2 conNameEx:nm-bridge
 #alias addcon='sudo ip address add 192.168.13.37/24 dev nm-bridge'
