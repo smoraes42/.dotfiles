@@ -22,6 +22,8 @@ vim.keymap.set("n","<leader>l", "<C-w>l")
 vim.keymap.set("n","<leader>j", "<C-w>j")
 vim.keymap.set("n","<leader>k", "<C-w>k")
 vim.keymap.set("n","<leader>q", "<C-w>q")
+vim.keymap.set("n","<leader>,", "<C-w><")
+vim.keymap.set("n","<leader>.", "<C-w>>")
 
 -- Split buffers
 vim.keymap.set("n","<leader>hs", vim.cmd.split)
@@ -38,3 +40,8 @@ vim.keymap.set("n","<leader>f1","<cmd>Stdheader<CR>")
 
 -- Clipboards
 vim.keymap.set("v","<leader>y",'"+y')
+
+-- Highligh and Searches
+vim.keymap.set("n","<leader>hs",'<cmd>set hlsearch<CR>')
+vim.keymap.set("n","<leader>nhs",'<cmd>nohlsearch<CR>')
+
