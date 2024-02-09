@@ -42,6 +42,6 @@ vim.keymap.set("n","<leader>f1","<cmd>Stdheader<CR>")
 vim.keymap.set("v","<leader>y",'"+y')
 
 -- Highligh and Searches
-vim.keymap.set("n","<leader>hs",'<cmd>set hlsearch<CR>')
+vim.keymap.set("n","<leader>shs",'<cmd>set hlsearch<CR>')
 vim.keymap.set("n","<leader>nhs",'<cmd>nohlsearch<CR>')
 
